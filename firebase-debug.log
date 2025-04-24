@@ -1,0 +1,53 @@
+[debug] [2025-04-24T06:51:08.258Z] ----------------------------------------------------------------------
+[debug] [2025-04-24T06:51:08.260Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-24T06:51:08.260Z] CLI Version:   14.2.1
+[debug] [2025-04-24T06:51:08.260Z] Platform:      win32
+[debug] [2025-04-24T06:51:08.260Z] Node Version:  v22.14.0
+[debug] [2025-04-24T06:51:08.260Z] Time:          Thu Apr 24 2025 13:51:08 GMT+0700 (Indochina Time)
+[debug] [2025-04-24T06:51:08.260Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-24T06:51:08.433Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-24T06:51:08.433Z] > authorizing via signed-in user (waranyalosiri48@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-24T06:51:08.444Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T06:51:08.444Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T06:51:08.444Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-24T06:51:08.447Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-githubactionpractice-7fb0a.json
+[debug] [2025-04-24T06:51:08.460Z] Checked if tokens are valid: true, expires at: 1745480860418
+[debug] [2025-04-24T06:51:08.460Z] Checked if tokens are valid: true, expires at: 1745480860418
+[debug] [2025-04-24T06:51:08.460Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a/sites 
+[debug] [2025-04-24T06:51:09.321Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a/sites 200
+[debug] [2025-04-24T06:51:09.321Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a/sites {"sites":[{"name":"projects/githubactionpractice-7fb0a/sites/githubactionpractice-7fb0a","defaultUrl":"https://githubactionpractice-7fb0a.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-24T06:51:09.321Z] Checked if tokens are valid: true, expires at: 1745480860418
+[debug] [2025-04-24T06:51:09.322Z] Checked if tokens are valid: true, expires at: 1745480860418
+[debug] [2025-04-24T06:51:09.322Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a/webApps/-/config [none]
+[debug] [2025-04-24T06:51:10.133Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a/webApps/-/config 200
+[debug] [2025-04-24T06:51:10.133Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a/webApps/-/config {"projectId":"githubactionpractice-7fb0a","storageBucket":"githubactionpractice-7fb0a.firebasestorage.app","apiKey":"AIzaSyAudmo8ikfyQDMMRVKN4haJZOWN1FM95AQ","authDomain":"githubactionpractice-7fb0a.firebaseapp.com","messagingSenderId":"837802442261"}
+[debug] [2025-04-24T06:51:10.137Z] Checked if tokens are valid: true, expires at: 1745480860418
+[debug] [2025-04-24T06:51:10.137Z] Checked if tokens are valid: true, expires at: 1745480860418
+[debug] [2025-04-24T06:51:10.138Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a [none]
+[debug] [2025-04-24T06:51:11.482Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a 200
+[debug] [2025-04-24T06:51:11.482Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-7fb0a {"projectId":"githubactionpractice-7fb0a","projectNumber":"837802442261","displayName":"GitHubActionPractice","name":"projects/githubactionpractice-7fb0a","resources":{"hostingSite":"githubactionpractice-7fb0a"},"state":"ACTIVE","etag":"1_72463e35-3f39-4454-8131-25c96aeaab45"}
+[info] i  hosting[githubactionpractice-7fb0a]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[githubactionpractice-7fb0a]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-24T06:51:11.516Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:06:51:35 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:06:51:35 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:06:51:35 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:06:51:35 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:06:51:36 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:06:51:36 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:06:51:36 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:06:51:36 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
